@@ -8,17 +8,20 @@
   </head>
   <body class="bg-black text-white">
     <section id="hero">
-      <header class="flex justify-between items-center mx-14">
+      <header class="flex justify-between items-center mx-10 lg:mx-14">
         <div id="logo">
-          <img class="w-20" src="/images/logo.png" alt="logo" />
+          <img class="w-18 lg:w-23" src="/images/logo.png" alt="logo" />
         </div>
-        <nav class="flex gap-12">
+        <nav
+          class="hidden md:block space-x-6 lg:space-x-9 font-bold lg:text-xl"
+        >
           <a href="#">Home</a>
           <a href="#">How It Works?</a>
           <a href="#">About</a>
           <a href="#">Testimonials</a>
           <a href="#">Contact Us</a>
         </nav>
+        <button class="text-4xl md:hidden">≡</button>
       </header>
     </section>
   </body>
