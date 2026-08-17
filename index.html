@@ -7,25 +7,28 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body class="bg-black text-white">
-    <header
-      class="flex justify-between items-center w-full px-10 lg:px-14 fixed `max-w-[1440px]` mx-auto"
-    >
-      <div id="logo">
-        <img class="w-18 lg:w-23" src="/images/logo.png" alt="logo" />
-      </div>
-      <nav class="hidden md:block space-x-6 lg:space-x-9 font-bold lg:text-xl">
-        <a href="#">Home</a>
-        <a href="#">How It Works?</a>
-        <a href="#">About</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Contact Us</a>
-      </nav>
-      <button class="text-4xl md:hidden">≡</button>
-    </header>
-
+    <div class="w-full fixed top-0 left-0 right-0 z-50">
+      <header
+        class="flex justify-between items-center max-w-[1440px] mx-auto px-10 lg:px-14"
+      >
+        <div id="logo">
+          <img class="w-18 lg:w-23" src="/images/logo.png" alt="logo" />
+        </div>
+        <nav
+          class="hidden md:block space-x-6 lg:space-x-9 font-bold lg:text-xl"
+        >
+          <a href="#">Home</a>
+          <a href="#">How It Works?</a>
+          <a href="#">About</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Contact Us</a>
+        </nav>
+        <button class="text-4xl md:hidden">≡</button>
+      </header>
+    </div>
     <section
       id="hero"
-      class="h-screen bg-[url(/images/road-background.png)] bg-no-repeat bg-top-right bg-contain bg-`[length:50%_100%]` `max-w-[1440px]` mx-auto" 
+      class="h-[700px] max-h-screen max-w-[1440px] mx-auto bg-[url(/images/road-background.png)] bg-no-repeat bg-right-top bg-contain"
     >
       <div
         class="flex justify-between items-center h-full pt-15 max-w-6xl mx-auto"
