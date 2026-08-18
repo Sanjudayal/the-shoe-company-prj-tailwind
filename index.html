@@ -9,9 +9,9 @@
   </head>
   <body class="bg-black text-white">
     <div id="main-container">
-      <div class="w-full fixed top-0 left-0 right-0 z-50">
+      <div class="w-full fixed top-0 left-0 right-0 z-55">
         <header
-          class="flex justify-between items-center max-w-360 mx-auto px-10 lg:px-14"
+          class="flex justify-between items-center max-w-360 mx-auto px-10 lg:px-14 z-55 backdrop-blur-sm bg-black/80"
         >
           <div id="logo">
             <img class="w-18 lg:w-23" src="/images/logo.png" alt="logo" />
@@ -20,7 +20,7 @@
             class="hidden md:block space-x-6 lg:space-x-9 font-bold lg:text-xl"
           >
             <a href="#hero">Home</a>
-            <a href="#">How It Works?</a>
+            <a href="#how-it-works">How It Works?</a>
             <a href="#">About</a>
             <a href="#">Testimonials</a>
             <a href="#">Contact Us</a>
@@ -36,7 +36,7 @@
             </div>
             <nav id="nav-area" class="flex flex-col gap-3 text-xl font-bold">
               <a href="#hero">Home</a>
-              <a href="#">How It Works?</a>
+              <a href="#how-it-works">How It Works?</a>
               <a href="#">About</a>
               <a href="#">Testimonials</a>
               <a href="#">Contact Us</a>
@@ -46,7 +46,7 @@
       </div>
       <section
         id="hero"
-        class="h-screen md:h-[700px] max-h-screen max-w-360 mx-auto bg-[url(/images/road-background.png)] bg-no-repeat bg-bottom md:bg-top-right md:bg-contain bg-[length:100%_60%]"
+        class="h-screen md:h-[700px] max-h-screen max-w-360 mx-auto bg-[url(/images/road-background.png)] bg-no-repeat bg-bottom md:bg-top-right md:bg-contain bg-[length:100%_60%] px-8 md:px-6"
       >
         <div
           class="flex justify-around md:justify-between flex-col md:flex-row items-center h-full pt-15 max-w-6xl mx-auto"
@@ -67,11 +67,46 @@
           </div>
         </div>
       </section>
-      <!-- <section id="how-it-works">
-      <h1 class="text-center text-3xl">
-        Have they finally made the perfect workout shoe?
-      </h1>
-    </section> -->
+      <section
+        id="how-it-works"
+        class="max-w-360 mx-auto px-8 md:px-6 relative"
+      >
+        <h2 class="text-center text-4xl font-bold max-w-xl mx-auto pt-6 mb-10">
+          Have they finally made the perfect workout shoe?
+        </h2>
+
+        <div class="max-w-xl mx-auto pt-12">
+          <img
+            class="w-full"
+            src="/images/how-it-works-image 1.png"
+            alt="shoe"
+          />
+        </div>
+        <div class="max-w-xs p-4 absolute top-35 translate-x-35">
+          <h1 class="text-xl font-bold mb-2">THE HEEL</h1>
+          <p class="w-50 text-sm">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
+          <img class="ml-15 max-w-40" src="/images/arrow-1 1.png" alt="" />
+        </div>
+        <div class="max-w-xs p-4 absolute top-45 right-70 ">
+          <img class="-ml-30 -mb-20 max-w-35" src="/images/arrow-2 1.png" alt="" />
+          <h1 class="text-xl font-bold mb-2">THE FRONT</h1>
+          <p class="w-50 text-sm">
+            The front is comfortable and adjusts well to the shape of your foot.
+          </p>
+          
+        </div>
+        <div class="max-w-xs p-4 absolute -bottom-3 translate-x-85">
+          <img class="ml-22 -mb-18 max-w-40" src="/images/arrow-3 1@2x.png" alt="" />
+          <h1 class="text-xl font-bold mb-2">TRACTION</h1>
+          <p class="w-45 text-sm">
+            The shoe has good traction and doesn't slip easily.
+          </p>
+          
+        </div>
+      </section>
     </div>
   </body>
 </html>
