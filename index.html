@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/output.css" />
     <script src="/src/script.js" defer></script>
   </head>
-  <body class="bg-black text-white">
+  <body class="bg-black text-white m-0 p-0 box-border">
     <div id="main-container">
       <div class="w-full fixed top-0 left-0 right-0 z-55">
         <header
@@ -21,8 +21,8 @@
           >
             <a href="#hero">Home</a>
             <a href="#how-it-works">How It Works?</a>
-            <a href="#">About</a>
-            <a href="#">Testimonials</a>
+            <a href="#about">About</a>
+            <a href="#testimonials">Testimonials</a>
             <a href="#">Contact Us</a>
           </nav>
           <button id="menu-btn" class="text-4xl md:hidden">≡</button>
@@ -37,13 +37,14 @@
             <nav id="nav-area" class="flex flex-col gap-3 text-xl font-bold">
               <a href="#hero">Home</a>
               <a href="#how-it-works">How It Works?</a>
-              <a href="#">About</a>
-              <a href="#">Testimonials</a>
+              <a href="#about">About</a>
+              <a href="#testimonials">Testimonials</a>
               <a href="#">Contact Us</a>
             </nav>
           </div>
         </header>
       </div>
+      <!-- ********* hero section *********** -->
       <section
         id="hero"
         class="h-screen md:h-[700px] max-h-screen max-w-360 mx-auto bg-[url(/images/road-background.png)] bg-no-repeat bg-bottom md:bg-top-right md:bg-contain bg-[length:100%_60%] px-8 md:px-6"
@@ -67,6 +68,7 @@
           </div>
         </div>
       </section>
+      <!-- ********** how it works seciton *********** -->
       <section
         id="how-it-works"
         class="max-w-360 mx-auto px-4 sm:px-8 md:px-6 relative"
@@ -178,6 +180,57 @@
               ‘Organization Name’, we offer men, ladies, and child’s shoes
               perfect for any and each event.
             </p>
+          </div>
+        </div>
+      </section>
+      <!-- ********* testimonials section ************ -->
+      <section
+        id="testimonials"
+        class="bg-[url(/images/testimonial-bg.png)] bg-cover bg-no-repeat max-w-360 mx-auto px-10 min-h-screen md:min-h-[700px] mt-10 md:mt-50"
+      >
+        <div class="min-h-screen md:min-h-[700px] py-5 flex flex-col justify-around">
+          <h1
+            class="max-w-sm md:max-w-lg mx-auto text-center text-2xl md:text-4xl font-bold"
+          >
+            What People are saying about THE SHOE COMPANY ?
+          </h1>
+          <div
+            id="review-container"
+            class="flex flex-col md:flex-row justify-around"
+          >
+            <div class="p-5 self-center">
+              <img
+                class="max-w-50 mx-auto md:w-auto rounded-full mb-5"
+                src="/images/joseph-gonzalez.png"
+                alt="joseph-gonzalez"
+              />
+              <p class="text-center max-w-60 mx-auto">
+                “Looking for shoes that are built just for you? THE SHOE COMPANY
+                is the way to go. Love the design and build quality.”
+              </p>
+            </div>
+            <div class="p-5 self-center">
+              <img
+                class="max-w-50 mx-auto md:w-auto rounded-full mb-5"
+                src="/images/philipp-lansing.png"
+                alt="philipp-lansing"
+              />
+              <p class="text-center max-w-60 mx-auto">
+                “I love the shoes, the quality, and everyting. They are worth
+                the investment!”
+              </p>
+            </div>
+            <div class="p-5 self-center">
+              <img
+                class="max-w-50 mx-auto md:w-auto rounded-full mb-5"
+                src="/images/impress-bashyal.png"
+                alt="impress-bashyal"
+              />
+              <p class="text-center max-w-60 mx-auto">
+                “They make the best and forever lasting shoes. Superb fit and
+                confort is literally the next level. Much recommended!”
+              </p>
+            </div>
           </div>
         </div>
       </section>
