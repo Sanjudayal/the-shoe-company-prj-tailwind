@@ -14,7 +14,9 @@
           class="flex justify-between items-center max-w-360 mx-auto px-10 lg:px-14 z-55 backdrop-blur-sm bg-black/80"
         >
           <div id="logo">
-            <img class="w-18 lg:w-23" src="/images/logo.png" alt="logo" />
+            <a href="#hero"
+              ><img class="w-18 lg:w-23" src="/images/logo.png" alt="logo"
+            /></a>
           </div>
           <nav
             class="hidden md:block space-x-6 lg:space-x-9 font-bold lg:text-xl"
@@ -23,13 +25,13 @@
             <a href="#how-it-works">How It Works?</a>
             <a href="#about">About</a>
             <a href="#testimonials">Testimonials</a>
-            <a href="#">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </nav>
           <button id="menu-btn" class="text-4xl md:hidden">≡</button>
 
           <div
             id="mobile-menu"
-            class="md:hidden absolute top-5 right-5 z-50 w-64 bg-white/30 backdrop-blur-md p-6 rounded-lg opacity-0 invisible translate-x-5 transition-all duration-300 ease-out"
+            class="md:hidden absolute top-5 right-5 z-50 w-64 dark:bg-zinc-900/85 backdrop-blur-xl p-6 rounded-lg opacity-0 invisible translate-x-5 transition-all duration-300 ease-out"
           >
             <div class="flex justify-end mb-2">
               <button id="close-icon" class="text-3xl font-bold">→</button>
@@ -39,7 +41,7 @@
               <a href="#how-it-works">How It Works?</a>
               <a href="#about">About</a>
               <a href="#testimonials">Testimonials</a>
-              <a href="#">Contact Us</a>
+              <a href="#contact">Contact Us</a>
             </nav>
           </div>
         </header>
@@ -47,13 +49,13 @@
       <!-- ********* hero section *********** -->
       <section
         id="hero"
-        class="h-screen md:h-[700px] max-h-screen max-w-360 mx-auto bg-[url(/images/road-background.png)] bg-no-repeat bg-bottom md:bg-top-right md:bg-contain bg-[length:100%_60%] px-8 md:px-6"
+        class="min-h-[700px] max-w-360 mx-auto pt-15 bg-[url(/images/road-background.png)] bg-no-repeat bg-bottom md:bg-top-right md:bg-contain bg-[length:100%_60%] px-8 md:px-6"
       >
         <div
           class="flex justify-around md:justify-between flex-col md:flex-row items-center h-full pt-15 max-w-6xl mx-auto"
         >
           <h1
-            class="text-3xl lg:text-7xl md:text-5xl font-bold leading-tight self-start md:self-center ml-10 mt-6 md:ml-15 md:mt-10"
+            class="text-3xl lg:text-7xl md:text-5xl font-bold leading-tight self-start md:self-center ml-0 mt-6 md:ml-15 mt-0 md:mt-10"
           >
             THE <br />
             SHOE <br />
@@ -71,7 +73,7 @@
       <!-- ********** how it works seciton *********** -->
       <section
         id="how-it-works"
-        class="max-w-360 mx-auto px-4 sm:px-8 md:px-6 relative"
+        class="max-w-360 mx-auto px-4 sm:px-8 md:px-6 relative scroll-mt-13"
       >
         <h2
           class="text-center text-2xl sm:text-3xl md:text-4xl font-bold max-w-lg sm:max-w-xl mx-auto pt-6 mb-10"
@@ -89,7 +91,7 @@
 
         <!--about hill div -->
         <div
-          class="max-w-xs p-4 absolute top-30 sm:top-45 lg:top-35 md:translate-x-6 lg:translate-x-0 xl:translate-x-35"
+          class="max-w-xs p-4 absolute top-33 sm:top-45 lg:top-35 md:translate-x-6 lg:translate-x-0 xl:translate-x-35"
         >
           <h1 class="text-lg sm:text-xl font-bold mb-2">THE HEEL</h1>
           <p class="max-w-40 sm:max-w-50 text-xs sm:text-sm">
@@ -97,17 +99,17 @@
             rigid.
           </p>
           <img
-            class="lg:ml-15 max-w-30 sm:max-w-35 lg:max-w-40 rotate-45 lg:rotate-0"
+            class="ml-6 lg:ml-15 max-w-25 sm:max-w-35 lg:max-w-40 rotate-45 lg:rotate-0"
             src="/images/arrow-1 1.png"
             alt=""
           />
         </div>
         <!-- about the front -->
         <div
-          class="max-w-xs p-4 absolute top-30 sm:top-45 right-4 sm:right-6 md:right-25 xl:right-70"
+          class="max-w-xs p-4 absolute top-35 sm:top-45 right-2 sm:right-6 md:right-25 xl:right-70"
         >
           <img
-            class="-ml-0 sm:-ml-3 lg:-ml-30 translate-y-40 lg:translate-y-0 -mb-6 sm:-mb-16 lg:-mb-20 max-w-25 sm:max-w-30 lg:max-w-35 rotate-125 lg:rotate-0"
+            class="ml-5 sm:-ml-3 lg:-ml-30 translate-y-40 lg:translate-y-0 -mb-2 sm:-mb-16 lg:-mb-20 max-w-20 sm:max-w-30 lg:max-w-35 rotate-125 lg:rotate-0"
             src="/images/arrow-2 1.png"
             alt=""
           />
@@ -121,7 +123,7 @@
           class="max-w-xs p-4 absolute -bottom-10 sm:-bottom-3 translate-x-0 sm:translate-x-10 md:translate-x-30 lg:translate-x-45 xl:translate-x-85"
         >
           <img
-            class="ml-26 sm:ml-30 -mb-18 sm:-mb-22 lg:-mb-20 max-w-25 sm:max-w-30 lg:max-w-35"
+            class="ml-28 sm:ml-30 -mb-15 sm:-mb-22 lg:-mb-20 max-w-20 sm:max-w-30 lg:max-w-35"
             src="/images/arrow-3 1@2x.png"
             alt=""
           />
@@ -159,7 +161,7 @@
           </h1>
           <div
             id="p-container"
-            class="text-sm lg:text-base flex flex-col gap-3 lg:gap-6 pr-5 lg:pr-25 text-center md:text-left"
+            class="text-sm lg:text-base flex flex-col gap-3 lg:gap-6 pr-0 md:pr-5 lg:pr-25 text-center md:text-left"
           >
             <p>
               For each one of those shoe sweethearts out there, THE SHOE COMPANY
@@ -186,9 +188,11 @@
       <!-- ********* testimonials section ************ -->
       <section
         id="testimonials"
-        class="bg-[url(/images/testimonial-bg.png)] bg-cover bg-no-repeat max-w-360 mx-auto px-10 min-h-screen md:min-h-[700px] mt-10 md:mt-50"
+        class="bg-[url(/images/testimonial-bg.png)] bg-cover bg-no-repeat max-w-360 mx-auto px-10 min-h-screen md:min-h-[700px] mt-10 md:mt-50 scroll-mt-5"
       >
-        <div class="min-h-screen md:min-h-[700px] py-5 flex flex-col justify-around">
+        <div
+          class="min-h-screen md:min-h-[700px] py-5 flex flex-col justify-around"
+        >
           <h1
             class="max-w-sm md:max-w-lg mx-auto text-center text-2xl md:text-4xl font-bold"
           >
@@ -234,6 +238,52 @@
           </div>
         </div>
       </section>
+
+      <section
+        id="contact"
+        class="max-w-360 lg:pr-20 flex flex-col lg:flex-row justify-between my-10 md:my-15 lg:my-20 scroll-mt-20"
+      >
+        <div class="self-center lg:ml-40 text-center lg:text-left p-5">
+          <h1 class="text-4xl md:text-5xl font-bold">Contact Us</h1>
+          <p class="max-w-50 mt-8 mb-5 text-sm md:text-lg mx-auto lg:mx-0">
+            THE SHOE COMPANY, Dallas, Texas, USA +1 5590 1120 9910
+          </p>
+          <div class="flex flex-row gap-2 justify-center lg:justify-start">
+            <img
+              class="max-w-5 md:max-w-6"
+              src="/images/facebook.svg"
+              alt="facebook"
+            />
+            <img
+              class="max-w-5 md:max-w-6"
+              src="/images/Vector.svg"
+              alt="instagram"
+            />
+            <img
+              class="max-w-5 md:max-w-6"
+              src="/images/twitch.svg"
+              alt="twitch"
+            />
+            <img
+              class="max-w-5 md:max-w-6"
+              src="/images/youtube.svg"
+              alt="youtube"
+            />
+          </div>
+        </div>
+        <div id="map" class="w-4/5 lg:w-1/2 mx-auto lg:mx-0 mt-10 lg:mt-0 h-100 lg:min-h-145">
+          <iframe
+            class="w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210681.04251297598!2d-96.89724979462014!3d32.818395635058664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e1!3m2!1sen!2sin!4v1787134291807!5m2!1sen!2sin"
+        
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </section>
+      <p class="text-xs md:text-base text-center py-5 ">Made with ♥ by Sanju</p>
     </div>
   </body>
 </html>
